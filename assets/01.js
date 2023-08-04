@@ -8,4 +8,5 @@ const time = function () {
   mins_box.innerText = mins;
   hours_box.innerText = hours;
 };
+time();
 setInterval(time, 1000);
